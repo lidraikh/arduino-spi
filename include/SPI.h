@@ -62,7 +62,7 @@ class SPIImpl {
   void setBitOrder(uint8_t bitOrder);
   void setDataMode(uint8_t dataMode);
   void setFrequency(uint32_t freq);
-  // void setClockDivider(uint32_t clockDiv);
+  void setClockDivider(uint32_t clockDiv);
 
   void beginTransaction(SPISettings settings);
   void endTransaction(void);
